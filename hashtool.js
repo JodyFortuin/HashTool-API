@@ -6,7 +6,7 @@ module.exports = function HashToolService(pool) {
             addUserToDatabase(response.data.data.items[i]);
         }
 
-        //displaying results from api as database is not deplpyed
+        //displaying results from api as database is not deployed
         return response;
     }
 
